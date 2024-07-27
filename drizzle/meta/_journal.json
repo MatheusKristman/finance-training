@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1722032938682,
+      "tag": "0000_keen_wildside",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1722033455657,
+      "tag": "0001_aberrant_dragon_lord",
+      "breakpoints": true
+    }
+  ]
+}
