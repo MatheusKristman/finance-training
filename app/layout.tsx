@@ -20,17 +20,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <ClerkProvider afterSignOutUrl="/">
-      <html lang="en">
-        <body className={inter.className}>
-          <QueryProvider>
-            <SheetProvider />
-            <Toaster />
-            {children}
-          </QueryProvider>
-        </body>
-      </html>
-    </ClerkProvider>
-  );
+    return (
+        <ClerkProvider afterSignOutUrl="/">
+            <html lang="en">
+                <body className={inter.className}>
+                    <QueryProvider>
+                        <SheetProvider />
+                        <Toaster />
+                        {children}
+                    </QueryProvider>
+                </body>
+            </html>
+            </ClerkProvider>
+    );
 }
